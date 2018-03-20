@@ -53,9 +53,7 @@ export default class App extends Component {
         let {movies} = this.state;
         let myTitle = this.state.title;
         console.log(myTitle);
-
-        console.log('The lenght is ', movies.length);
-
+        
         return (
             <div className="container">
                 <div className="content1">
