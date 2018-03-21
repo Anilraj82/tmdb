@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #000000 url("https://image.tmdb.org/t/p/w500/kqjL17yufvn9OVLyXYpvtyrFfak.jpg") no-repeat scroll center center / cover;
+  background: #000000 url("https://image.tmdb.org/t/p/w500/5EW4TR3fWEqpKsWysNcBMtz9Sgp.jpg") no-repeat scroll center center / cover;
 
 }
 
@@ -42,7 +42,8 @@ i {
   color: #01d277;
 }
 
-input[type=text]:focus:not([readonly]), input[type=text]:focus:not([readonly])+label {
+input[type=text]:focus:not([readonly]),
+input[type=text]:focus:not([readonly])+label {
   border-bottom: 1px solid #01d277;
   box-shadow: 0 1px 0 0 #01d277;
   color: #01d277;
@@ -75,4 +76,13 @@ input[type=text]:focus:not([readonly]), input[type=text]:focus:not([readonly])+l
   //background: lightblue;
   margin: .1rem 0 ;
   border-radius: .2rem;
+}
+
+
+.grey-text.text-darken-4 {
+  color: #01d277 !important;
+}
+
+.card-reveal div p:first-child {
+  color:#01d277;
 }
