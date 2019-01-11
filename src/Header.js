@@ -45,7 +45,7 @@ export class Header extends Component {
         if (nextState.title !== this.state.title) {
             return true
         }
-        if (nextState.title =='')
+        if (nextState.title ==='')
 
             return true
         return false
